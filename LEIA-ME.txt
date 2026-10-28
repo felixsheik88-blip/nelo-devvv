@@ -1,0 +1,16 @@
+SITE NELO DEV (HTML + CSS)
+
+Como abrir:
+1. Extrai o zip.
+2. Faz duplo clique em index.html (abre no navegador).
+
+Como pôr no XAMPP (opcional):
+Copia a pasta para C:\xampp\htdocs\nelo-dev e abre http://localhost/nelo-dev/
+
+Como pôr online (grátis): GitHub Pages, Netlify ou Cloudflare Pages - basta enviar os 2 ficheiros.
+
+Ficheiros:
+- index.html  -> conteúdo (textos, WhatsApp, email)
+- style.css   -> design e animações
+
+Para mudar contactos: procura "258834679503" (WhatsApp) e "felixsheik88@gmail.com" no index.html.

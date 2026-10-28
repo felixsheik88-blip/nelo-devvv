@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nelo Dev | Desenvolvedor de Sistemas - Moçambique</title>
+<meta name="description" content="Nelo Dev - profissional de TI com experiência em Java, PHP, MySQL, HTML, análise de dados e redes de computadores. Desenvolvo sistemas à medida.">
+<meta name="theme-color" content="#0b1020">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b1020'/%3E%3Ctext x='50' y='66' font-size='52' text-anchor='middle' fill='%2322d3ee' font-family='monospace' font-weight='bold'%3E%26lt;/%26gt;%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="fundo" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="grelha"></span>
+</div>
+
+<!-- MENU (sem JavaScript: o botão do telemóvel usa um checkbox) -->
+<header class="topo">
+    <a href="#inicio" class="logo">&lt;<span>Nelo</span>Dev/&gt;</a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">
+    <label for="menu-toggle" class="menu-botao" aria-hidden="true"><i></i><i></i><i></i></label>
+    <nav class="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#carreira">Carreira</a>
+        <a href="#competencias">Competências</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contacto" class="menu-cta">Contacto</a>
+    </nav>
+</header>
+
+<main>
+
+<!-- INÍCIO -->
+<section id="inicio" class="hero">
+    <div class="hero-texto">
+        <p class="etiqueta anim" style="--d:.1s"><span class="ponto"></span> Disponível para novos projectos</p>
+        <h1 class="anim" style="--d:.25s">Olá, eu sou o <span class="gradiente">Nelo Dev</span></h1>
+        <p class="escrita anim" style="--d:.4s"><span>Desenvolvedor de sistemas à medida</span></p>
+        <p class="lead anim" style="--d:.55s">Transformo ideias em sistemas web que funcionam: lojas online, gestão de stock, controlo de vendas e muito mais. Feito em Moçambique, para o mercado moçambicano.</p>
+        <div class="botoes anim" style="--d:.7s">
+            <a class="btn btn-whats" href="https://wa.me/258834679503?text=Ol%C3%A1%20Nelo%2C%20vi%20o%20seu%20site%20e%20gostaria%20de%20falar%20sobre%20um%20sistema." target="_blank" rel="noopener">
+                <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C9.4 3 4 8.4 4 15.03c0 2.12.55 4.19 1.6 6.01L4 29l8.14-1.56a12 12 0 0 0 3.9.65h.01C22.68 28.09 28 22.7 28 16.06A12 12 0 0 0 16.04 3zm0 21.9h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-4.83.93.99-4.7-.24-.38a9.88 9.88 0 0 1-1.52-5.2c0-5.46 4.46-9.9 9.95-9.9 2.65 0 5.14 1.03 7.01 2.9a9.8 9.8 0 0 1 2.9 7c0 5.46-4.46 9.94-9.85 9.94zm5.45-7.43c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.48-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
+                Falar no WhatsApp
+            </a>
+            <a class="btn btn-sec" href="#servicos">Ver serviços</a>
+        </div>
+    </div>
+
+    <div class="hero-visual anim" style="--d:.5s" aria-hidden="true">
+        <div class="janela">
+            <div class="janela-barra"><i></i><i></i><i></i><span>sistema.php</span></div>
+            <pre class="codigo"><code><span class="l" style="--n:1"><b class="k">&lt;?php</b></span>
+<span class="l" style="--n:2"><b class="k">class</b> <b class="c">Desenvolvedor</b> {</span>
+<span class="l" style="--n:3">  <b class="k">public</b> $nome = <b class="s">'Nelo Dev'</b>;</span>
+<span class="l" style="--n:4">  <b class="k">public</b> $stack = [</span>
+<span class="l" style="--n:5">    <b class="s">'Java'</b>, <b class="s">'PHP'</b>, <b class="s">'MySQL'</b>,</span>
+<span class="l" style="--n:6">    <b class="s">'HTML/CSS'</b>, <b class="s">'Dados'</b>, <b class="s">'Redes'</b></span>
+<span class="l" style="--n:7">  ];</span>
+<span class="l" style="--n:8">  <b class="k">function</b> <b class="f">criar</b>($ideia) {</span>
+<span class="l" style="--n:9">    <b class="k">return</b> <b class="s">'sistema pronto'</b>;</span>
+<span class="l" style="--n:10">  }</span>
+<span class="l" style="--n:11">}</span></code></pre>
+        </div>
+        <span class="chip chip1">PHP</span>
+        <span class="chip chip2">Java</span>
+        <span class="chip chip3">MySQL</span>
+    </div>
+
+    <a href="#sobre" class="rolar" aria-label="Descer"><span></span></a>
+</section>
+
+<!-- NÚMEROS -->
+<section class="numeros reveal">
+    <div><strong>6</strong><span>Áreas de especialidade</span></div>
+    <div><strong>100%</strong><span>Sistemas à medida</span></div>
+    <div><strong>MT</strong><span>Pensado para Moçambique</span></div>
+    <div><strong>1:1</strong><span>Contacto directo via WhatsApp</span></div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="seccao">
+    <div class="cabecalho reveal">
+        <p class="sobretitulo">Sobre mim</p>
+        <h2>Tecnologia ao serviço do <span class="gradiente">seu negócio</span></h2>
+    </div>
+    <div class="sobre-grelha">
+        <div class="reveal esquerda">
+            <p>Sou o <strong>Nelo Dev</strong>, profissional de Tecnologias de Informação a trabalhar em Moçambique. O meu percurso junta programação, bases de dados, análise de dados e redes de computadores, o que me permite olhar para um problema de ponta a ponta: da ideia ao sistema a funcionar.</p>
+            <p>Construo aplicações web comerciais pensadas para a realidade local: preços em <strong>Meticais (MT)</strong>, pagamentos por <strong>M-Pesa, e-Mola e mKesh</strong> e pedidos por <strong>WhatsApp</strong>. Gosto de entregar soluções completas, simples de instalar e fáceis de usar.</p>
+        </div>
+        <ul class="destaques reveal direita">
+            <li><span>✓</span> Sistemas completos, prontos a usar</li>
+            <li><span>✓</span> Código organizado e seguro</li>
+            <li><span>✓</span> Instalação explicada passo a passo</li>
+            <li><span>✓</span> Comunicação em português, clara e directa</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CARREIRA -->
+<section id="carreira" class="seccao">
+    <div class="cabecalho reveal">
+        <p class="sobretitulo">Percurso</p>
+        <h2>A minha <span class="gradiente">carreira em TI</span></h2>
+    </div>
+    <div class="linha-tempo">
+        <article class="passo reveal esquerda">
+            <span class="marca"></span>
+            <h3>Fundações em programação</h3>
+            <p>Início do percurso em TI com lógica de programação e <strong>Java</strong>, a base para compreender estruturas, algoritmos e boas práticas de desenvolvimento.</p>
+        </article>
+        <article class="passo reveal direita">
+            <span class="marca"></span>
+            <h3>Web e bases de dados</h3>
+            <p>Aprofundamento em <strong>HTML, PHP e MySQL</strong>: criação de páginas, formulários, sistemas de utilizadores e aplicações ligadas a bases de dados.</p>
+        </article>
+        <article class="passo reveal esquerda">
+            <span class="marca"></span>
+            <h3>Análise de dados</h3>
+            <p>Trabalho com <strong>análise de dados</strong> para transformar números em informação útil: relatórios, indicadores e apoio à tomada de decisão.</p>
+        </article>
+        <article class="passo reveal direita">
+            <span class="marca"></span>
+            <h3>Redes de computadores</h3>
+            <p>Conhecimentos de <strong>redes de computadores</strong>, que dão uma visão completa de como os sistemas comunicam e funcionam em ambiente real.</p>
+        </article>
+        <article class="passo reveal esquerda">
+            <span class="marca activa"></span>
+            <h3>Sistemas à medida, hoje</h3>
+            <p>Desenvolvo sistemas completos para pessoas e negócios: lojas online, gestão de stock, controlo de vendas e sistemas de gestão.</p>
+        </article>
+    </div>
+</section>
+
+<!-- COMPETÊNCIAS -->
+<section id="competencias" class="seccao">
+    <div class="cabecalho reveal">
+        <p class="sobretitulo">Competências</p>
+        <h2>Ferramentas com que <span class="gradiente">trabalho</span></h2>
+    </div>
+    <div class="cartoes">
+        <div class="cartao reveal" style="--i:0">
+            <div class="icone">☕</div><h3>Java</h3><p>Programação orientada a objectos e lógica de aplicações.</p>
+        </div>
+        <div class="cartao reveal" style="--i:1">
+            <div class="icone">🐘</div><h3>PHP</h3><p>Aplicações web dinâmicas, painéis de administração e sistemas de login.</p>
+        </div>
+        <div class="cartao reveal" style="--i:2">
+            <div class="icone">🗄️</div><h3>MySQL</h3><p>Modelação de bases de dados, consultas e transacções seguras.</p>
+        </div>
+        <div class="cartao reveal" style="--i:3">
+            <div class="icone">🎨</div><h3>HTML &amp; CSS</h3><p>Interfaces modernas, responsivas e com animações.</p>
+        </div>
+        <div class="cartao reveal" style="--i:4">
+            <div class="icone">📊</div><h3>Análise de dados</h3><p>Tratamento de dados, indicadores e relatórios claros.</p>
+        </div>
+        <div class="cartao reveal" style="--i:5">
+            <div class="icone">🌐</div><h3>Redes</h3><p>Noções sólidas de redes de computadores e infra-estrutura.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="seccao">
+    <div class="cabecalho reveal">
+        <p class="sobretitulo">Serviços</p>
+        <h2>Faço o sistema <span class="gradiente">que precisa</span></h2>
+        <p class="sub">Está a pensar numa ideia? Eu desenvolvo o sistema à medida para si ou para o seu negócio.</p>
+    </div>
+    <div class="servicos">
+        <article class="servico reveal" style="--i:0">
+            <span class="num">01</span>
+            <h3>Lojas online</h3>
+            <p>Catálogo, carrinho, pedidos por WhatsApp e pagamentos locais (M-Pesa, e-Mola, mKesh), com painel de administração.</p>
+        </article>
+        <article class="servico reveal" style="--i:1">
+            <span class="num">02</span>
+            <h3>Gestão de stock e vendas</h3>
+            <p>Controlo de produtos, entradas e saídas, vendas do dia, dívidas e relatórios para mercearias, lojas e armazéns.</p>
+        </article>
+        <article class="servico reveal" style="--i:2">
+            <span class="num">03</span>
+            <h3>Sistemas de gestão</h3>
+            <p>Clientes, contas, utilizadores com perfis, auditoria e operações seguras. Sistemas à medida do seu processo.</p>
+        </article>
+        <article class="servico reveal" style="--i:3">
+            <span class="num">04</span>
+            <h3>Sites e páginas profissionais</h3>
+            <p>Portfólios, páginas de empresa e landing pages rápidas, bonitas e adaptadas ao telemóvel.</p>
+        </article>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="seccao contacto">
+    <div class="contacto-caixa reveal">
+        <p class="sobretitulo">Vamos conversar</p>
+        <h2>Tem um projecto em mente?</h2>
+        <p class="sub">Conte-me a sua ideia. Respondo rápido e preparamos uma solução à medida.</p>
+        <div class="botoes centro">
+            <a class="btn btn-whats" href="https://wa.me/258834679503?text=Ol%C3%A1%20Nelo%2C%20vi%20o%20seu%20site%20e%20gostaria%20de%20falar%20sobre%20um%20sistema." target="_blank" rel="noopener">
+                <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C9.4 3 4 8.4 4 15.03c0 2.12.55 4.19 1.6 6.01L4 29l8.14-1.56a12 12 0 0 0 3.9.65h.01C22.68 28.09 28 22.7 28 16.06A12 12 0 0 0 16.04 3zm0 21.9h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-4.83.93.99-4.7-.24-.38a9.88 9.88 0 0 1-1.52-5.2c0-5.46 4.46-9.9 9.95-9.9 2.65 0 5.14 1.03 7.01 2.9a9.8 9.8 0 0 1 2.9 7c0 5.46-4.46 9.94-9.85 9.94zm5.45-7.43c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.48-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
+                WhatsApp: 
+            </a>
+            <a class="btn btn-sec" href="mailto:felixsheik88@gmail.com?subject=Pedido%20de%20sistema&body=Ol%C3%A1%20Nelo%2C%0A%0AGostaria%20de%20falar%20sobre%20um%20sistema.">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.6 2L12 12.6 19.4 7H4.6zM4 17h16V9.2l-8 6-8-6V17z"/></svg>
+                felixsheik88@gmail.com
+            </a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+    <p>&copy; 2026 <strong>Nelo Dev</strong> · Desenvolvedor de sistemas · Moçambique</p>
+</footer>
+
+<!-- Botão flutuante do WhatsApp -->
+<a class="whats-flutuante" href="https://wa.me/834679503?text=Ol%C3%A1%20Nelo%2C%20vi%20o%20seu%20site%20e%20gostaria%20de%20falar%20sobre%20um%20sistema." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C9.4 3 4 8.4 4 15.03c0 2.12.55 4.19 1.6 6.01L4 29l8.14-1.56a12 12 0 0 0 3.9.65h.01C22.68 28.09 28 22.7 28 16.06A12 12 0 0 0 16.04 3zm0 21.9h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-4.83.93.99-4.7-.24-.38a9.88 9.88 0 0 1-1.52-5.2c0-5.46 4.46-9.9 9.95-9.9 2.65 0 5.14 1.03 7.01 2.9a9.8 9.8 0 0 1 2.9 7c0 5.46-4.46 9.94-9.85 9.94zm5.45-7.43c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.48-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
+    <span class="dica">Fale comigo</span>
+</a>
+
+</body>
+</html>
